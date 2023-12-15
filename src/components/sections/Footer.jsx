@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import { Logo } from "../Logo";
-import Facebook from "../Icons/Facebook";
-import LinkedIn from "../Icons/LinkedIn";
-import Twitter from "../Icons/Twitter";
-import Instagram from "../Icons/Instagram";
+
 import {Banner} from "../Banner"
 export function Footer() {
   const scrollTo = (id) => {
@@ -20,7 +17,7 @@ export function Footer() {
       <Container>
         <Left>
           <Logo />
-          <IconList>
+           {/*<IconList>
             <a href="#" target="_blank">
               <Facebook />
             </a>
@@ -33,7 +30,7 @@ export function Footer() {
             <a href="#" target="_blank">
               <LinkedIn />
             </a>
-          </IconList>
+  </IconList> */}
         </Left>
         <MenuItems>
           <Item onClick={() => scrollTo("home")}>Home</Item>
